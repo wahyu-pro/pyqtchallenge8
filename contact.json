@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Suryono",
+        "number": "08385873098",
+        "favorite": 1
+    },
+    {
+        "name": "Wahyu",
+        "number": "083805873098",
+        "favorite": 1
+    },
+    {
+        "name": "Abi",
+        "number": "083874635467",
+        "favorite": 1
+    },
+    {
+        "name": "Iman fauzi",
+        "number": "083876453674",
+        "favorite": 0
+    },
+    {
+        "name": "Alvito",
+        "number": "08380756467",
+        "favorite": 0
+    },
+    {
+        "name": "Fahrul",
+        "number": "083876543456",
+        "favorite": 0
+    }
+]
