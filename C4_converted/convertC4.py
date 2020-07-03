@@ -121,7 +121,7 @@ class contactTab(QWidget):
     def createTable(self):
         data = self.data.getdata()
         self.head = ["name", "number"]
-        row = len(list(data))
+        # row = len(list(data))
         self.table = QTableView()
         data = [[data[i]['name'],data[i]['number'],data[i]['favorite']] for i in range(len(data))]
         self.model = TableModel(data)
@@ -221,11 +221,10 @@ class addContactTab(QWidget):
             fwrite.write(toJson)
             QMessageBox.information(self, "About", "Contact successfully added")
             # clas = contactTab()
-            # clas.createTable()
+            # clas.model.layoutChanged.emit()
 
 
 if __name__ == "__main__":
-    # print(os.path.isfile("contact copy.json"))
     app = QApplication([])
     window = MyApp()
     qtmodern.styles.light(app)
